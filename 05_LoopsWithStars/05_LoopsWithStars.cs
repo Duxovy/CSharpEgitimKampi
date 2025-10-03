@@ -73,34 +73,34 @@ namespace _05_LoopsWithStars
             #endregion
 
             #region Baklava Dilimi
-            int n = -2;
-            for (int i=4;i>=0;i--)
-            {
-                for(int j=i-1;j>=0;j--)
-                {
-                    Console.Write(" ");
-                }                
-                n = n + 2;
-                for (int k=1;k<=n;k++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine("*");
-            }
-            int m = 9;
-            for(int x=1;x<=4;x++)
-            {
-                for(int y=1;y<=x;y++)
-                {
-                    Console.Write(" ");
-                }
-                m = m - 2;
-                for(int z=1;z<=m-1;z++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine("*");
-            }
+            //int n = -2;
+            //for (int i=4;i>=0;i--)
+            //{
+            //    for(int j=i-1;j>=0;j--)
+            //    {
+            //        Console.Write(" ");
+            //    }                
+            //    n = n + 2;
+            //    for (int k=1;k<=n;k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine("*");
+            //}
+            //int m = 9;
+            //for(int x=1;x<=4;x++)
+            //{
+            //    for(int y=1;y<=x;y++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    m = m - 2;
+            //    for(int z=1;z<=m-1;z++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine("*");
+            //}
             #endregion
         }
     }
