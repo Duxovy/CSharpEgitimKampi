@@ -70,42 +70,42 @@ namespace _01_MainSubjects
             //int number= 25;
             //Console.WriteLine(number);
 
-            int lahmacunPrice= 100;
-            int cigkoftePrice = 50;
-            int lemonadePrice = 30;
-            int ayranPrice= 20;
-            int waterPrice= 10;
-            Console.WriteLine("**** Restoran Menü Fiyatı ****");
-            Console.WriteLine("---- Lahmacun Fiyatı: " + lahmacunPrice + "TL");
-            Console.WriteLine("---- Çiğköfte Fiyatı: " + cigkoftePrice + "TL");
-            Console.WriteLine("---- Limonata Fiyatı: " + lemonadePrice + "TL");
-            Console.WriteLine("---- Ayran Fiyatı: " + ayranPrice + "TL");
-            Console.WriteLine("---- Su Fiyatı: " + waterPrice + "TL");
-            Console.WriteLine("------------------------------");
+            //int lahmacunPrice= 100;
+            //int cigkoftePrice = 50;
+            //int lemonadePrice = 30;
+            //int ayranPrice= 20;
+            //int waterPrice= 10;
+            //Console.WriteLine("**** Restoran Menü Fiyatı ****");
+            //Console.WriteLine("---- Lahmacun Fiyatı: " + lahmacunPrice + "TL");
+            //Console.WriteLine("---- Çiğköfte Fiyatı: " + cigkoftePrice + "TL");
+            //Console.WriteLine("---- Limonata Fiyatı: " + lemonadePrice + "TL");
+            //Console.WriteLine("---- Ayran Fiyatı: " + ayranPrice + "TL");
+            //Console.WriteLine("---- Su Fiyatı: " + waterPrice + "TL");
+            //Console.WriteLine("------------------------------");
 
-            int lahmacunCount;
-            int cigkofteCount;
-            int lemonadeCount;
-            int ayranCount;
-            int waterCount;
+            //int lahmacunCount;
+            //int cigkofteCount;
+            //int lemonadeCount;
+            //int ayranCount;
+            //int waterCount;
 
-            lahmacunCount= 2;
-            cigkofteCount= 3;
-            lemonadeCount= 0;
-            ayranCount= 3;
-            waterCount= 1;
+            //lahmacunCount= 2;
+            //cigkofteCount= 3;
+            //lemonadeCount= 0;
+            //ayranCount= 3;
+            //waterCount= 1;
 
-            Console.WriteLine("Lahmacun Adedi: " + lahmacunCount);
-            Console.WriteLine("Çiğköfte Adedi: " + cigkofteCount);
-            Console.WriteLine("Limonata Adedi: " + lemonadeCount);
-            Console.WriteLine("Ayran Adedi: " + ayranCount);
-            Console.WriteLine("Su Adedi: " + waterCount);
+            //Console.WriteLine("Lahmacun Adedi: " + lahmacunCount);
+            //Console.WriteLine("Çiğköfte Adedi: " + cigkofteCount);
+            //Console.WriteLine("Limonata Adedi: " + lemonadeCount);
+            //Console.WriteLine("Ayran Adedi: " + ayranCount);
+            //Console.WriteLine("Su Adedi: " + waterCount);
 
-            Console.WriteLine("------------------------------");
+            //Console.WriteLine("------------------------------");
 
-            int totalPrice= 0;
-            totalPrice= lahmacunCount * lahmacunPrice + cigkofteCount * cigkoftePrice + lemonadeCount * lemonadePrice + ayranCount * ayranPrice + waterCount * waterPrice;
-            Console.WriteLine("-->Toplam Tutar: " + totalPrice + "TL");
+            //int totalPrice= 0;
+            //totalPrice= lahmacunCount * lahmacunPrice + cigkofteCount * cigkoftePrice + lemonadeCount * lemonadePrice + ayranCount * ayranPrice + waterCount * waterPrice;
+            //Console.WriteLine("-->Toplam Tutar: " + totalPrice + "TL");
             #endregion
         }
     }
