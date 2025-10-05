@@ -114,52 +114,52 @@ namespace _06_Arrays
             //}
             //Console.WriteLine(sum);
 
-            Console.WriteLine("Kaç tane sayı girişi yapmak istiyorsunuz?");
-            int a = int.Parse(Console.ReadLine());
-            int[] numbers = new int[a];
-            int b;            
-            int sumB = 0;
-            int sumS = 0;
-            int[] doubleNumbers = new int[a];
-            int[] singleNumbers = new int[a];
-            for (int i=0; i<a; i++)
-            {
-                Console.WriteLine($"Lütfen {i+1}.sayıyı giriniz: ");
-                b = int.Parse(Console.ReadLine());                 
-                numbers[i] = b;
-                if(b%2==0)
-                {                    
-                    doubleNumbers[i] = b;                    
-                }
-                if (b % 2 == 1)
-                {
-                    singleNumbers[i] = b;
-                }                
-            }            
-            for (int j=0; j<a; j++)
-            {
-                sumB = sumB + doubleNumbers[j];
-            }
-            if(sumB>0)
-            {
-                Console.WriteLine("Giriş yaptığınız çift sayılar: ");
-                for (int i = 0; i < a; i++)
-                {
-                    Console.WriteLine(doubleNumbers[i]);
-                }
-            }            
-            for(int k=0;k<a;k++)
-            {
-                sumS = sumS + singleNumbers[k];
-            }
-            if(sumS>0)
-            {
-                Console.WriteLine("Giriş yaptığınız tek sayılar: ");
-                for (int i = 0; i < a; i++)
-                {
-                    Console.WriteLine(singleNumbers[i]);
-                }
-            }            
+            //Console.WriteLine("Kaç tane sayı girişi yapmak istiyorsunuz?");
+            //int a = int.Parse(Console.ReadLine());
+            //int[] numbers = new int[a];
+            //int b;            
+            //int sumB = 0;
+            //int sumS = 0;
+            //int[] doubleNumbers = new int[a];
+            //int[] singleNumbers = new int[a];
+            //for (int i=0; i<a; i++)
+            //{
+            //    Console.WriteLine($"Lütfen {i+1}.sayıyı giriniz: ");
+            //    b = int.Parse(Console.ReadLine());                 
+            //    numbers[i] = b;
+            //    if(b%2==0)
+            //    {                    
+            //        doubleNumbers[i] = b;                    
+            //    }
+            //    if (b % 2 == 1)
+            //    {
+            //        singleNumbers[i] = b;
+            //    }                
+            //}            
+            //for (int j=0; j<a; j++)
+            //{
+            //    sumB = sumB + doubleNumbers[j];
+            //}
+            //if(sumB>0)
+            //{
+            //    Console.WriteLine("Giriş yaptığınız çift sayılar: ");
+            //    for (int i = 0; i < a; i++)
+            //    {
+            //        Console.WriteLine(doubleNumbers[i]);
+            //    }
+            //}            
+            //for(int k=0;k<a;k++)
+            //{
+            //    sumS = sumS + singleNumbers[k];
+            //}
+            //if(sumS>0)
+            //{
+            //    Console.WriteLine("Giriş yaptığınız tek sayılar: ");
+            //    for (int i = 0; i < a; i++)
+            //    {
+            //        Console.WriteLine(singleNumbers[i]);
+            //    }
+            //}
             #endregion
         }
     }
