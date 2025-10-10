@@ -87,19 +87,19 @@ namespace _08_Methods
             #endregion
 
             #region Ornek Uygulama
-            string ExamResult(string student, double vize, double final)
-            {
-                double average = (vize * 4 + final * 6) / 10;
-                if(average>=50)
-                {
-                    return student + " Adli Ogrenci Sinavi Gecti / Ortalamasi="+average;
-                }
-                else
-                {
-                    return student + " Adli Ogrenci Sinavdan Kaldi / Ortalamasi="+average;
-                }
-            }
-            Console.WriteLine(ExamResult("Kerem", 23,76));
+            //string ExamResult(string student, double vize, double final)
+            //{
+            //    double average = (vize * 4 + final * 6) / 10;
+            //    if(average>=50)
+            //    {
+            //        return student + " Adli Ogrenci Sinavi Gecti / Ortalamasi="+average;
+            //    }
+            //    else
+            //    {
+            //        return student + " Adli Ogrenci Sinavdan Kaldi / Ortalamasi="+average;
+            //    }
+            //}
+            //Console.WriteLine(ExamResult("Kerem", 23,76));
             #endregion
         }
     }
