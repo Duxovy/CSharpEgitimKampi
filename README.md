@@ -23,3 +23,6 @@ Bu bolumde; foreach dongusunu kullanmayi ogrendim ve liste yazdirdim ayrica dizi
 
 📍 08_Methods :
 Bu bolumde; string, integer parametreli void ve geriye deger dondurenn metotlari ogrendim.
+
+📍09_DatabaseProject :
+Bu bolumde; SQL e giris yapip SqlConnection, SqlCommand, SqlDataAdapter siniflarini ogrenmeye basladim.
