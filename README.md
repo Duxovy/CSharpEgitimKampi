@@ -1,5 +1,8 @@
 Bu repoyu, Murat Yucedag C# Egitim kampi ile birlikte yapiyorum.
 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 01_MainSubjects ; 
 
 📍Proje 1: Console.WriteLine metodunu, string ve integer degisken olusturmayi ogrendim.
@@ -51,3 +54,10 @@ Bu repoyu, Murat Yucedag C# Egitim kampi ile birlikte yapiyorum.
 09_DatabaseProject ;
 
 📍Proje 9: SQL e giris yapip SqlConnection, SqlCommand, SqlDataAdapter siniflarini ogrenmeye basladim.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+10_DatabaseCrud ;
+📍Proje 10: Uygulamalarla, SQL de ogrendiklerimi pekistirdim.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
