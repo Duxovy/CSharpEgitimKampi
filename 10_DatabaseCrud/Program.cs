@@ -14,8 +14,8 @@ namespace _10_DatabaseCrud
         {
             //Crud-->Create-Read-Update-Delete
 
-            Console.WriteLine("***** Menu Siparis Islem Paneli *****");
-            Console.WriteLine("-------------------------------------");
+            //Console.WriteLine("***** Menu Siparis Islem Paneli *****");
+            //Console.WriteLine("-------------------------------------");
             #region Kategori Ekleme Islemi
             //Console.Write("Eklemek Istediginiz Kategori Adi: ");
             //string categoryName = Console.ReadLine();
@@ -92,34 +92,34 @@ namespace _10_DatabaseCrud
             #endregion
 
             #region Urun Guncelleme Islemi            
-            SqlConnection connection = new SqlConnection("Data Source=DESKTOP-CIJIV4U\\SQLEXPRESS;initial catalog=EgitimKampiDb;integrated security=true");
-            connection.Open();
-            SqlCommand command2 = new SqlCommand("Select * From TblProduct", connection);
-            SqlDataAdapter adapter = new SqlDataAdapter(command2);
-            DataTable dataTable = new DataTable();
-            adapter.Fill(dataTable);
-            foreach (DataRow row in dataTable.Rows)
-            {
-                foreach (var item in row.ItemArray)
-                {
-                    Console.Write(item.ToString() + " ");
-                }
-                Console.WriteLine();
-            }
-            Console.WriteLine("-------------------------------------");
-            Console.Write("Guncellenecek Urun Numarasi: ");
-            int productId = int.Parse(Console.ReadLine());
-            Console.Write("Guncellenecek Urun Adi: ");
-            string productName = Console.ReadLine();
-            Console.Write("Guncellenecek Urun Fiyati: ");
-            decimal productPrice = decimal.Parse(Console.ReadLine());
-            SqlCommand command = new SqlCommand("Update TblProduct Set ProductName=@productName,ProductPrice=@productPrice where ProductId=@productId", connection);
-            command.Parameters.AddWithValue("@productName", productName);
-            command.Parameters.AddWithValue("@productPrice", productPrice);
-            command.Parameters.AddWithValue("@productId", productId);           
-            command.ExecuteNonQuery();
-            connection.Close();
-            Console.WriteLine("Guncelleme Basarili!");
+            //SqlConnection connection = new SqlConnection("Data Source=DESKTOP-CIJIV4U\\SQLEXPRESS;initial catalog=EgitimKampiDb;integrated security=true");
+            //connection.Open();
+            //SqlCommand command2 = new SqlCommand("Select * From TblProduct", connection);
+            //SqlDataAdapter adapter = new SqlDataAdapter(command2);
+            //DataTable dataTable = new DataTable();
+            //adapter.Fill(dataTable);
+            //foreach (DataRow row in dataTable.Rows)
+            //{
+            //    foreach (var item in row.ItemArray)
+            //    {
+            //        Console.Write(item.ToString() + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine("-------------------------------------");
+            //Console.Write("Guncellenecek Urun Numarasi: ");
+            //int productId = int.Parse(Console.ReadLine());
+            //Console.Write("Guncellenecek Urun Adi: ");
+            //string productName = Console.ReadLine();
+            //Console.Write("Guncellenecek Urun Fiyati: ");
+            //decimal productPrice = decimal.Parse(Console.ReadLine());
+            //SqlCommand command = new SqlCommand("Update TblProduct Set ProductName=@productName,ProductPrice=@productPrice where ProductId=@productId", connection);
+            //command.Parameters.AddWithValue("@productName", productName);
+            //command.Parameters.AddWithValue("@productPrice", productPrice);
+            //command.Parameters.AddWithValue("@productId", productId);           
+            //command.ExecuteNonQuery();
+            //connection.Close();
+            //Console.WriteLine("Guncelleme Basarili!");
             #endregion
         }
     }
